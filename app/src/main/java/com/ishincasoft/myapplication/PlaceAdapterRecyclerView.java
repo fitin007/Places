@@ -52,8 +52,8 @@ public class PlaceAdapterRecyclerView extends RecyclerView.Adapter<PlaceAdapterR
 
         public PlaceViewHolder(View view) {
             super(view);
-            namePlaceTextView = (TextView) view.findViewById(R.id.txtNamePlace);
-            image = (ImageView) view.findViewById(R.id.imgPlace);
+            namePlaceTextView = view.findViewById(R.id.txtNamePlace);
+            image = view.findViewById(R.id.imgPlace);
 
         }
     }
